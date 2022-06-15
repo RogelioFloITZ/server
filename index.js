@@ -91,5 +91,5 @@ app.use('/api/users', require('./routes/users.routes'));
 
 //Iniciar el servidor
 app.listen(app.get('port'), () => {
-    console.log('Servidor corriendo en http://localhost:' + app.get('port'));
+    console.log('Servidor corriendo en el puerto:' + app.get('port'));
 });
